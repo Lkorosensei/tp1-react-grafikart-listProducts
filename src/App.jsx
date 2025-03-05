@@ -24,7 +24,7 @@ function App() {
   return <div className="container-my-3">
     <SearchBar showStockedOnly={showStockedOnly} onStockedOnlyChange={setShowStockedOnly} search={search} onSearchChange={setSearch}  />
     <ProductTable products={visibleProducts}/>
-  </div>
+  </div> 
 }
 
 
